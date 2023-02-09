@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Beau Coburn Developer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -18,6 +18,8 @@ export default function Home() {
           className="image"
           alt="Thanks for coming to visit"
         />
+
+        <h1>Hello! My name is Beau.</h1>
 
         <div className="grid">
 

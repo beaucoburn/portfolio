@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import 'bootstrap/dist/css/bootstrap.css'
+//import 'bootstrap/dist/css/bootstrap.css'
 import Qrcode from "../../components/qrcode";
 
 export default function QRCode() {

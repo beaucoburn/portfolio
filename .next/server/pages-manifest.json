@@ -2,6 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/portfolio/PortfolioMain": "pages/portfolio/PortfolioMain.js",
   "/portfolio/QRCode": "pages/portfolio/QRCode.js"
 }

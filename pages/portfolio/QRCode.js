@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 //import 'bootstrap/dist/css/bootstrap.css'
-import Qrcode from "../../components/qrcode";
+import Qrcode from "../../components/qrcode.js";
 
 export default function QRCode() {
     return (
@@ -9,7 +9,7 @@ export default function QRCode() {
           <h5>
             <Link href="/">Back to home</Link>
           </h5>
-          <div className="card text-center" style={{width: '18rem', borderRadius: '15px', backgroundColor: 'white'}}>
+          <div className="qrcard" >
             <Image 
               height={576}
               width={576}

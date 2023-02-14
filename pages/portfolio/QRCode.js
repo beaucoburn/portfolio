@@ -7,9 +7,9 @@ import styles from "../../components/qrcode.module.css";
 export default function QRCode() {
     return (
         <div className={styles.container} >
-          <h5>
+          <h3>
             <Link href="/">Back to home</Link>
-          </h5>
+          </h3>
           <div className={styles.qrcard} >
             <Image 
               height={576}
@@ -24,7 +24,7 @@ export default function QRCode() {
           </div>
       
           <br />
-          <div className="attribution center">
+          <div className={styles.attribution}>
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
             Coded by <a href="https://www.frontendmentor.io/profile/beaucoburn">Beau Coburn</a>.
           </div>

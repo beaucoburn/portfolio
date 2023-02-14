@@ -3,6 +3,7 @@ import Link from "next/link";
 //import 'bootstrap/dist/css/bootstrap.css'
 import styles from "../../components/qrcode.module.css";
 
+
 export default function QRCode() {
     return (
         <div className={styles.container} >
@@ -11,8 +12,8 @@ export default function QRCode() {
           </h5>
           <div className={styles.qrcard} >
             <Image 
-              height={100}
-              width={100}
+              height={576}
+              width={576}
               src="/images/image-qr-code.png" 
               className={styles.cardImgTop}
               alt="Frontend Mentor QR" />

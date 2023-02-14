@@ -13,6 +13,7 @@
     width: 18rem; 
     border-radius: 15px; 
     background-color: white;
+    padding: 1.5rem;
 
     /*margin: 1rem;
     flex-basis: 45%;
@@ -29,21 +30,27 @@
 
 .cardImgTop {
     border-radius: 15px;
+    margin: auto;
+    align-content: center;
 }
 
 .cardTitle { 
     font-size: 20px;
-    font-family: Outfit; 
+    font-family: 'Outfit'; 
+    src: url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
     font-weight: 700; 
 }
 
 .cardBody p { 
     font-size: 15px; 
-    font-family: Outfit; 
+    font-family: 'Outfit';
+    src: url('https://fonts.googleapis.com/css2?family=Outfit&display=swap'); 
     font-weight: 400;
     color: black; 
 }
 
 .container {
-    background-color: #34495e;
+    background-color: lightgray;
+    margin: auto;
+    align-content: center;
 }

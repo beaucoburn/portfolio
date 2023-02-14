@@ -26,17 +26,10 @@
 
 .cardTitle { 
     font-size: 20px;
-    font-family: 'Outfit'; 
-    src: url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-    font-weight: 700; 
 }
 
 .cardBody p { 
     font-size: 15px; 
-    font-family: 'Outfit';
-    src: url('https://fonts.googleapis.com/css2?family=Outfit&display=swap'); 
-    font-weight: 400;
-    color: black; 
 }
 
 .container {

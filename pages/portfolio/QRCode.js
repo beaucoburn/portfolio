@@ -1,10 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-//import 'bootstrap/dist/css/bootstrap.css'
 import styles from "../../components/qrcode.module.css";
 
-
-export default function QRCode() {
+export default function QRCode({ Component, pageProps }) {
     return (
         <div className={styles.container} >
           <h3>
@@ -18,8 +16,8 @@ export default function QRCode() {
               className={styles.cardImgTop}
               alt="Frontend Mentor QR" />
             <div className={styles.cardBody}>
-              <h5 className={styles.cardTitle}>Improve your front-end skills by building projects</h5>
-              <p className={styles.cardText}>  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+              <h5 style={{ fontFamily:'Outfit', fontSize:'20px', weight:'700' }}>Improve your front-end skills by building projects</h5>
+              <p style={{ fontFamily:'Outfit', fontSize:'15px', weight:'400' }}>  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
             </div>
           </div>
       

@@ -31,9 +31,9 @@ export default function Home() {
           </div>
 
           <div className='card'>
-             <Link href="/posts/first-post">
+             <a href='https://dev.to/beaucoburn' alt="Come visit my blog!">
                <h3>The Blog &rarr;</h3>
-             </Link>
+             </a>
              <p>Come follow along on my journey as a developer!</p>
           </div>
 
